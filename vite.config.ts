@@ -5,6 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
+    base:'https://cielo-stack.github.io/marcos',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
